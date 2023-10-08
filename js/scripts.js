@@ -7,15 +7,16 @@ function newItem(){
     if (inputValue === ''){
         alert("You must write something!");
     }else{
-        $('#list').append(li);
+        let list = $("#list");
+        list.append(li);
     }
 
     //to cross out itemm from list
     function crossOut() {
         li.toggleClass("strike");
     }
-
-    li.on("dblClick", function crossOut() {li.toggleClass("strike")});
+    li.on("dblclick", crossOut);
+    
 
 
     // add delete button "X"
@@ -30,5 +31,5 @@ function newItem(){
 
     //Reorder list items
     $('#list').sortable();
-    
+
 }
