@@ -30,7 +30,7 @@ padding: 12px 30px 12px 10px;
 width: 300px
 }
 
-#button{
+.btn-primary{
 display: inline-block;
 background-color:#fc999b;
 color:#ffffff;
