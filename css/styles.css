@@ -5,6 +5,9 @@ font: normal normal 13px/16px "Open Sans", sans-serif;
 background: #dfdfdf;
 }
 
+h1{
+	text-align: center;
+}
 .container{
 padding: 20px;
 width: 300px;
@@ -17,8 +20,14 @@ form {
 display: inline-block;
 }
 
+h2{
+text-align: center;
+}
+
 input{
-padding: 4px 15px 4px 5px;
+padding: 12px 30px 12px 10px;
+
+width: 300px
 }
 
 #button{
